@@ -36,322 +36,7 @@ const BusinessCentral = () => {
          </section>
         
          
-         {/* <section>
-            <div className="container">
-               <header className="section-header">
-                  <h3>What is dynamics 365<br />
-                     business central?
-                  </h3>
-                  <p>Dynamics 365 Business Central (formerly known as Dynamics NAV) is a comprehensive business management solution helping <br />enterprises to determine their business goals and enabling them to manage their sales, finance, service, and operations <br /> seamlessly and effectively. Business Central is designed to help modern enterprises effortlessly connect their users to adapt & drive faster, and eventually deliver the anticipated results.</p>
-               </header>
-               <div className="row">
-                  <div className="swiper solution_new_slider">
-                     <div className="swiper-wrapper">
-                        <div className="swiper-slide col-lg-4 col-md-4">
-                           
-                           <div id="accordion" className="accordion-container">
-                              <div className="srcve_head">
-                                 <h3>Finance</h3>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Internal Transactions</h4>
-                                 <div className="accordion-content">
-                                    <p>Customize and automate inter-company transactions with access level control across different teams.</p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Cash flow Forecasting</h4>
-                                 <div className="accordion-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Budgeting</h4>
-                                 <div className="accordion-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Inventory Costing</h4>
-                                 <div className="accordion-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Consolidation and Multicompanies</h4>
-                                 <div className="accordion-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Costs and Income Allocation</h4>
-                                 <div className="accordion-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Banking</h4>
-                                 <div className="accordion-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Cost Accounting</h4>
-                                 <div className="accordion-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Fixed Assets</h4>
-                                 <div className="accordion-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Accounts Receivable</h4>
-                                 <div className="accordion-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Accounts Payable</h4>
-                                 <div className="accordion-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>General Ledger</h4>
-                                 <div className="accordion-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-
-                        <div className="swiper-slide col-lg-4 col-md-4">
-
-                        <div id="accordion" className="accordion-container">
-                           <div className="srcve_head">
-                              <h3>Sales</h3>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Customer management</h4>
-                              <div className="accordion-content">
-                                 <p>Customize and automate inter-company transactions with access level control across different teams.</p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Sales Quote</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Sales order</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Sales Invoices</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Drop Shipments</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Sales Returns</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Assembly Order</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Order Planning & Promising</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Single invoice Multiple Shipments</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Correction or Cancel Unpaid Invoices</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Pick List Creation</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                        </div>
-                        </div>
-
-                        <div className="swiper-slide col-lg-4">
-
-                        <div id="accordion" className="accordion-container">
-                           <div className="srcve_head">
-                              <h3>Purchase</h3>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Vendor Management</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Purchase Quote</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Purchase Order</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Purchase Invoices</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Purchase Items for Sales</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Purchase Returns</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Combine Receipts on Single Invoice</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Electronic Documents</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Date Calculation for Purchase</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-                           <div className="content-entry">
-                              <h4 className="article-title"><i className="bi"></i>Merge Duplicate Records</h4>
-                              <div className="accordion-content">
-                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                              </div>
-                           </div>
-
-                        </div>
-                        </div>
-
-                        <div className="swiper-slide col-lg-4">
-
-                           <div id="accordion" className="accordion-container">
-                              <div className="srcve_head">
-                                 <h3>Purchase</h3>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Vendor Management</h4>
-                                 <div className="accordion-content">
-                                    <p>Accordion content 1</p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Purchase Quote</h4>
-                                 <div className="accordion-content">
-                                    <p>Accordion content 1</p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Purchase Order</h4>
-                                 <div className="accordion-content">
-                                    <p>Accordion content 1</p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Purchase Invoices</h4>
-                                 <div className="accordion-content">
-                                    <p>Accordion content 1</p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Purchase Items for Sales</h4>
-                                 <div className="accordion-content">
-                                    <p>Accordion content 1</p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Purchase Returns</h4>
-                                 <div className="accordion-content">
-                                    <p>Accordion content 1</p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Combine Receipts on Single Invoice</h4>
-                                 <div className="accordion-content">
-                                    <p>Accordion content 1</p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Electronic Documents</h4>
-                                 <div className="accordion-content">
-                                    <p>Accordion content 1</p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Date Calculation for Purchase</h4>
-                                 <div className="accordion-content">
-                                    <p>Accordion content 1</p>
-                                 </div>
-                              </div>
-                              <div className="content-entry">
-                                 <h4 className="article-title"><i className="bi"></i>Merge Duplicate Records</h4>
-                                 <div className="accordion-content">
-                                    <p>Accordion content 1</p>
-                                 </div>
-                              </div>
-   
-                           </div>
-                           </div>
-
-              
-
-                     </div>
-                   
-                     <div className="swiper-pagination"></div>
-                  </div>
-               </div>
-            </div>
-         </section> */}
+        
 
          <section>
             <div className='container'>
@@ -1020,6 +705,23 @@ const BusinessCentral = () => {
             <div className="container">
                <div className="swiper solution_new_callto">
                   <div className="swiper-wrapper">
+                                    <Swiper
+
+                  autoplay={{
+                     delay: 2500,
+                     disableOnInteraction: false,
+                  }}          
+                  slidesPerView={1}
+                  spaceBetween={30}
+                  freeMode={true}
+                  pagination={{
+                  clickable: true,
+                  }}
+
+                  modules={[Autoplay,FreeMode, Pagination]}
+                  className="mySwiper"
+                  >
+                  <SwiperSlide>
                     <div className="swiper-slide">
                      <div className="row">
                         <div className="col-md-8">
@@ -1039,8 +741,9 @@ const BusinessCentral = () => {
                            <div className="call_to_action-right"><img src="assets/img/Group-683.png" alt="image" /></div>
                         </div>
                      </div>
-                    </div>
-                    <div className="swiper-slide">
+                    </div></SwiperSlide>
+
+                    <SwiperSlide> <div className="swiper-slide">
                      <div className="row">
                         <div className="col-md-8">
                            <div className="call_to_action-left">
@@ -1059,7 +762,7 @@ const BusinessCentral = () => {
                            <div className="call_to_action-right"><img src="assets/img/Group-683.png" alt="image" /></div>
                         </div>
                      </div>
-                    </div>
+                    </div></SwiperSlide></Swiper>
                   </div>
                 
                   <div className="swiper-pagination"></div>
