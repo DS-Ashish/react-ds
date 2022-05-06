@@ -5,10 +5,17 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
 import { NavLink } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 const Industries = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title></title>
+        <link rel="canonical" href="" />
+        <meta name="description" content="" />
+        <meta content="" name="keywords" />
+      </Helmet>
       <main>
         <section class="Solution-banner hero-1 hero">
           <div class="container">
@@ -308,7 +315,7 @@ const Industries = () => {
         <section class="busine_service_bottom">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-lg-6">
                 <div class="busine_service_bottom-left">
                   <div class="busine_service_bottom-right">
                     <img
@@ -410,7 +417,7 @@ const Industries = () => {
                       <SwiperSlide>
                         <div class="swiper-slide">
                           <div class="industries-list-more">
-                            <NavLink to="/react-ds/food-and-beverages">
+                            <NavLink to="/food-and-beverages">
                               <div class="img-wrp">
                                 <img
                                   src="assets/img/Food-and-beverage.svg"
@@ -434,7 +441,7 @@ const Industries = () => {
                         <div class="swiper-slide">
                           <div class="swiper-slide">
                             <div class="industries-list-more">
-                              <NavLink to="/react-ds/microsoft-cloud-for-nonprofit">
+                              <NavLink to="/microsoft-cloud-for-nonprofit">
                                 <div class="img-wrp">
                                   <img
                                     src="assets/img/NotforProfit.svg"
@@ -459,7 +466,7 @@ const Industries = () => {
                         <div class="swiper-slide">
                           <div class="swiper-slide">
                             <div class="industries-list-more">
-                              <NavLink to="/react-ds/ecommerce">
+                              <NavLink to="/ecommerce">
                                 <div class="img-wrp">
                                   <img
                                     src="assets/img/Ecommerce.svg"
@@ -483,7 +490,7 @@ const Industries = () => {
                         <div class="swiper-slide">
                           <div class="swiper-slide">
                             <div class="industries-list-more">
-                              <NavLink to="/react-ds/professional-services">
+                              <NavLink to="/professional-services">
                                 <div class="img-wrp">
                                   <img
                                     src="assets/img/proffesional-service.svg"
@@ -508,7 +515,7 @@ const Industries = () => {
                         <div class="swiper-slide">
                           <div class="swiper-slide">
                             <div class="industries-list-more">
-                              <NavLink to="/react-ds/microsoft-cloud-for-manufacturing">
+                              <NavLink to="/microsoft-cloud-for-manufacturing">
                                 <div class="img-wrp">
                                   <img
                                     src="assets/img/Food-and-beverage.svg"
@@ -533,7 +540,7 @@ const Industries = () => {
                         <div class="swiper-slide">
                           <div class="swiper-slide">
                             <div class="industries-list-more">
-                              <NavLink to="/react-ds/industries">
+                              <NavLink to="/industries">
                                 <div class="img-wrp">
                                   <img
                                     src="assets/img/Food-and-beverage.svg"

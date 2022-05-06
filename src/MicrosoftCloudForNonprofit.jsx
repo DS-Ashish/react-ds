@@ -5,10 +5,17 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
 import { NavLink } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 const MicrosoftCloudForNonprofit = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title></title>
+        <link rel="canonical" href="" />
+        <meta name="description" content="" />
+        <meta content="" name="keywords" />
+      </Helmet>
       <main>
         <section class="Solution-banner hero-1 hero">
           <div class="container">
@@ -310,7 +317,7 @@ const MicrosoftCloudForNonprofit = () => {
         <section class="busine_service_bottom">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-lg-6">
                 <div class="busine_service_bottom-left">
                   <div class="busine_service_bottom-right">
                     <img
@@ -378,7 +385,7 @@ const MicrosoftCloudForNonprofit = () => {
               </p>
             </header>
             <div className="row gy-4 p-9">
-              <div className="col-lg-3 col-md-3">
+              <div className="col-lg-3">
                 <div className="box box-22 box-11">
                   <h4>Basic</h4>
                   <div className="price">
@@ -393,7 +400,7 @@ const MicrosoftCloudForNonprofit = () => {
                 </div>
               </div>
 
-              <div className="col-lg-3 col-md-3">
+              <div className="col-lg-3">
                 <div className="box box-22 box-11">
                   <h4>Standard</h4>
                   <div className="price">
@@ -411,7 +418,7 @@ const MicrosoftCloudForNonprofit = () => {
                 </div>
               </div>
 
-              <div className="col-lg-3 col-md-3">
+              <div className="col-lg-3">
                 <div className="box box-22 box-11">
                   <h4>Standard</h4>
                   <div className="price">
@@ -429,7 +436,7 @@ const MicrosoftCloudForNonprofit = () => {
                 </div>
               </div>
 
-              <div className="col-lg-3 col-md-3">
+              <div className="col-lg-3">
                 <div className="box box-22 box-11">
                   <h4>Azure Services</h4>
                   {/* <div className="price"><sup>£</sup>0<span>Per Month</span></div> */}
@@ -506,7 +513,7 @@ const MicrosoftCloudForNonprofit = () => {
                       <SwiperSlide>
                         <div class="swiper-slide">
                           <div class="industries-list-more">
-                            <NavLink to="/react-ds/food-and-beverages">
+                            <NavLink to="/food-and-beverages">
                               <div class="img-wrp">
                                 <img
                                   src="assets/img/Food-and-beverage.svg"
@@ -530,7 +537,7 @@ const MicrosoftCloudForNonprofit = () => {
                         <div class="swiper-slide">
                           <div class="swiper-slide">
                             <div class="industries-list-more">
-                              <NavLink to="/react-ds/microsoft-cloud-for-nonprofit">
+                              <NavLink to="/microsoft-cloud-for-nonprofit">
                                 <div class="img-wrp">
                                   <img
                                     src="assets/img/NotforProfit.svg"
@@ -555,7 +562,7 @@ const MicrosoftCloudForNonprofit = () => {
                         <div class="swiper-slide">
                           <div class="swiper-slide">
                             <div class="industries-list-more">
-                              <NavLink to="/react-ds/ecommerce">
+                              <NavLink to="/ecommerce">
                                 <div class="img-wrp">
                                   <img
                                     src="assets/img/Ecommerce.svg"
@@ -579,7 +586,7 @@ const MicrosoftCloudForNonprofit = () => {
                         <div class="swiper-slide">
                           <div class="swiper-slide">
                             <div class="industries-list-more">
-                              <NavLink to="/react-ds/professional-services">
+                              <NavLink to="/professional-services">
                                 <div class="img-wrp">
                                   <img
                                     src="assets/img/proffesional-service.svg"
@@ -604,7 +611,7 @@ const MicrosoftCloudForNonprofit = () => {
                         <div class="swiper-slide">
                           <div class="swiper-slide">
                             <div class="industries-list-more">
-                              <NavLink to="/react-ds/microsoft-cloud-for-manufacturing">
+                              <NavLink to="/microsoft-cloud-for-manufacturing">
                                 <div class="img-wrp">
                                   <img
                                     src="assets/img/Food-and-beverage.svg"
@@ -629,7 +636,7 @@ const MicrosoftCloudForNonprofit = () => {
                         <div class="swiper-slide">
                           <div class="swiper-slide">
                             <div class="industries-list-more">
-                              <NavLink to="/react-ds/industries">
+                              <NavLink to="/industries">
                                 <div class="img-wrp">
                                   <img
                                     src="assets/img/Food-and-beverage.svg"

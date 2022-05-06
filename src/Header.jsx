@@ -16,25 +16,31 @@ const Header = () => {
                 </NavLink>
                 <ul>
                   <li className="dropdown">
-                    <NavLink to="#">
-                      <span>Microsoft Dynamics 365</span>{" "}
+                    <NavLink to="/react-ds/microsoft-dynamics-365">
+                      <span>Microsoft Dynamics 365</span>
                       <i className="bi bi-chevron-right"></i>
                     </NavLink>
                     <ul>
                       <li className="dropdown">
                         <NavLink to="/react-ds/dynamics-365-business-central">
-                          <span>Business Central</span>{" "}
+                          <span>Business Central</span>
                           <i className="bi bi-chevron-right"></i>
                         </NavLink>
                         <ul>
                           <li>
-                            <NavLink to="#">Implementation</NavLink>
+                            <NavLink to="/react-ds/dynamics-365-business-central-implementation">
+                              Implementation
+                            </NavLink>
                           </li>
                           <li>
-                            <NavLink to="#">Upgrade</NavLink>
+                            <NavLink to="/react-ds/dynamics-365-business-central-upgrade">
+                              Upgrade
+                            </NavLink>
                           </li>
                           <li>
-                            <NavLink to="#">Support</NavLink>
+                            <NavLink to="/react-ds/dynamics-365-business-central-support">
+                              Support
+                            </NavLink>
                           </li>
                         </ul>
                       </li>
@@ -112,7 +118,7 @@ const Header = () => {
                   </li>
                   <li className="dropdown">
                     <NavLink to="/react-ds/microsoft-power-platform">
-                      <span>Power Platform</span>{" "}
+                      <span>Power Platform</span>
                       <i className="bi bi-chevron-right"></i>
                     </NavLink>
                     <ul>
@@ -138,11 +144,55 @@ const Header = () => {
                       </li>
                     </ul>
                   </li>
-                  <li>
-                    <NavLink to="#">Microsoft 365</NavLink>
+                  <li className="dropdown">
+                    <NavLink to="#">
+                      <span>Microsoft 365</span>
+                      <i className="bi bi-chevron-right"></i>
+                    </NavLink>
+                    <ul>
+                      <li>
+                        <NavLink to="#">Office 365</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="#">SharePoint</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="#">Microsoft Teams</NavLink>
+                      </li>
+                    </ul>
                   </li>
-                  <li>
-                    <NavLink to="#">More Solutions</NavLink>
+                  <li className="dropdown">
+                    <NavLink to="#">
+                      <span>More Solutions</span>
+                      <i className="bi bi-chevron-right"></i>
+                    </NavLink>
+                    <ul>
+                      <li>
+                        <NavLink to="/react-ds/erp">
+                          ERP Solutions (NAV/AX/GP)
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/react-ds/microsoft-dynamics-crm">
+                          CRM Solutions
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/react-ds/microsoft-azure">
+                          Microsoft Azure
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/react-ds/microsoft-dynamics-365-mixed-reality">
+                          Mixed Reality
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/react-ds/microsoft-dynamics-365-ai">
+                          Artificial Intelligence (AI)
+                        </NavLink>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>

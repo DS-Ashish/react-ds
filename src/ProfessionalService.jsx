@@ -5,10 +5,17 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
 import { NavLink } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 const ProfessionalService = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title></title>
+        <link rel="canonical" href="" />
+        <meta name="description" content="" />
+        <meta content="" name="keywords" />
+      </Helmet>
       <main>
         <section class="Solution-banner hero-1 hero">
           <div class="container">
@@ -313,7 +320,7 @@ const ProfessionalService = () => {
         <section class="busine_service_bottom">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-lg-6">
                 <div class="busine_service_bottom-left">
                   <div class="busine_service_bottom-right">
                     <img
@@ -759,7 +766,7 @@ const ProfessionalService = () => {
               <p>Click through to our FAQ for the best answers!</p>
             </header>
             <div className="row justify-content-center mar-top-7">
-              <div className="col-md-8">
+              <div className="col-lg-8">
                 <div className="accordion accordion-flush" id="faqlist1">
                   <div className="accordion-item">
                     <h3 className="accordion-header">
