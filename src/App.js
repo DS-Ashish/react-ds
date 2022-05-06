@@ -46,15 +46,13 @@ import MicrosoftDynamics365Ai from "./MicrosoftDynamics365Ai";
 import { Switch, Route } from "react-router-dom";
 import { Redirect } from "react-router-dom";
 
-import { Switch, Route } from "react-router-dom";
-import { Redirect } from "react-router-dom";
-
 const App = () => {
   return (
     <>
       <Header />
       <Switch>
         <Route exact path="/react-ds/" component={Home} />
+        <Route exact path="/react-ds/why-us" component={WhyUs} />
         <Route exact path="/react-ds/solution" component={BusinessCentral} />
         <Route
           exact
