@@ -1,9 +1,18 @@
-import React from "react";
+import { React, useState } from "react";
 import { NavLink } from "react-router-dom";
 const Header = () => {
+  const [fix, setFix] = useState(false);
+  function setFixed() {
+    if (window.scrollY >= 250) {
+      setFix(true);
+    } else {
+      setFix(false);
+    }
+  }
+  window.addEventListener("scroll", setFixed);
   return (
     <>
-      <header id="header" className="header fixed-top">
+      <header id="header" className={fix ? "header fixed-top" : "header"}>
         <div className="container-fluid  d-flex align-items-center justify-content-between">
           <NavLink to="/react-ds/" className="logo d-flex align-items-center">
             <img src="assets/img/dynamicssqure-logo.svg" alt="logo" />
